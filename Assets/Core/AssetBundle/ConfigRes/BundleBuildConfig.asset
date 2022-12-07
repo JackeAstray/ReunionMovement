@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ce91b17c92145649aa4ffff367f9ade, type: 3}
+  m_Name: BundleBuildConfig
+  m_EditorClassIdentifier: 
+  ManifestVersion: 3
+  TargetPlatforms: 13000000
+  Options: 9
+  OutputPath: ./AssetBundles
+  IsCopyToReadOnlyDirectory: 1
+  CopyGroup: Base
+  Directories:
+  - DirectoryObj: {fileID: 102900000, guid: bff088245e67e2d42b128e18a09c3a66, type: 3}
+    BuildRuleName: NAssetToOneBundle
+    RuleRegex: 
+    Group: Resources
+  - DirectoryObj: {fileID: 102900000, guid: 2d98868ac211b5d44af789f86b8a77a4, type: 3}
+    BuildRuleName: NAssetToOneBundle
+    RuleRegex: 
+    Group: Scripts
+  Bundles:
+  - RelativePath: HotUpdate/Resources.bundle
+    DirectoryName: HotUpdate
+    BundleName: Resources.bundle
+    Group: Resources
+    IsRaw: 0
+    AssetsLength: 9391
+    Assets:
+    - Name: Assets/HotUpdate/Resources/Scenes/Test.unity
+      Length: 9391
+  - RelativePath: HotUpdate/Resources_res.bundle
+    DirectoryName: HotUpdate
+    BundleName: Resources_res.bundle
+    Group: Resources
+    IsRaw: 0
+    AssetsLength: 64671093
+    Assets:
+    - Name: Assets/HotUpdate/Resources/Audios/BGM/Boss_battle_#2_metal_opening.mp3
+      Length: 571801
+    - Name: Assets/HotUpdate/Resources/Audios/BGM/Sadness.mp3
+      Length: 507329
+    - Name: Assets/HotUpdate/Resources/Audios/Sound/Accept.mp3
+      Length: 41834
+    - Name: Assets/HotUpdate/Resources/Audios/Sound/Pop.mp3
+      Length: 5937
+    - Name: Assets/HotUpdate/Resources/Datas/Test.txt
+      Length: 6
+    - Name: Assets/HotUpdate/Resources/Datas/Test2.json
+      Length: 25
+    - Name: Assets/HotUpdate/Resources/Font/DroidSansFallback.ttf
+      Length: 3189464
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Bold.jpg
+      Length: 55910
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Bold.otf
+      Length: 8543504
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-ExtraLight.jpg
+      Length: 53699
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-ExtraLight.otf
+      Length: 7575136
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Heavy.jpg
+      Length: 55096
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Heavy.otf
+      Length: 8856264
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Light.jpg
+      Length: 55358
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Light.otf
+      Length: 8299448
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Medium.jpg
+      Length: 56309
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Medium.otf
+      Length: 8345780
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Normal.jpg
+      Length: 55879
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Normal.otf
+      Length: 8326204
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Regular.jpg
+      Length: 56476
+    - Name: Assets/HotUpdate/Resources/Font/SourceHanSansCN-Regular.otf
+      Length: 8331636
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_100.png
+      Length: 20505
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_11.png
+      Length: 22432
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_112.png
+      Length: 23322
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_118.png
+      Length: 22596
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_119.png
+      Length: 22691
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_120.png
+      Length: 22623
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_121.png
+      Length: 21071
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_122.png
+      Length: 22224
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_123.png
+      Length: 22018
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_124.png
+      Length: 21538
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_129.png
+      Length: 21041
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_132.png
+      Length: 21895
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_133.png
+      Length: 23718
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_134.png
+      Length: 21431
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_135.png
+      Length: 22466
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_142.png
+      Length: 20911
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_143.png
+      Length: 20928
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_18.png
+      Length: 21783
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_2.png
+      Length: 20322
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_22.png
+      Length: 21603
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_27.png
+      Length: 21248
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_28.png
+      Length: 21176
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_29.png
+      Length: 21634
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_3.png
+      Length: 20261
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_30.png
+      Length: 21667
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_31.png
+      Length: 22569
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_32.png
+      Length: 22546
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_33.png
+      Length: 22242
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_34.png
+      Length: 22151
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_35.png
+      Length: 21021
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_36.png
+      Length: 21179
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_37.png
+      Length: 20941
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_38.png
+      Length: 20972
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_39.png
+      Length: 21309
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_4.png
+      Length: 20185
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_40.png
+      Length: 22147
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_41.png
+      Length: 21168
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_42.png
+      Length: 22274
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_43.png
+      Length: 20853
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_44.png
+      Length: 21390
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_45.png
+      Length: 22345
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_46.png
+      Length: 21361
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_48.png
+      Length: 21263
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_49.png
+      Length: 21158
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_5.png
+      Length: 20207
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_50.png
+      Length: 22545
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_51.png
+      Length: 22599
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_52.png
+      Length: 22530
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_53.png
+      Length: 22296
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_54.png
+      Length: 23567
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_6.png
+      Length: 22403
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_62.png
+      Length: 21796
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_63.png
+      Length: 21750
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_64.png
+      Length: 22461
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_65.png
+      Length: 24154
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_66.png
+      Length: 21504
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_7.png
+      Length: 22398
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_8.png
+      Length: 22451
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_82.png
+      Length: 21179
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_83.png
+      Length: 21132
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_84.png
+      Length: 21716
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_85.png
+      Length: 21579
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_86.png
+      Length: 21321
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_87.png
+      Length: 21423
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_88.png
+      Length: 21649
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_89.png
+      Length: 21224
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_90.png
+      Length: 22456
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_91.png
+      Length: 22376
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_92.png
+      Length: 21390
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_93.png
+      Length: 22736
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_94.png
+      Length: 22295
+    - Name: Assets/HotUpdate/Resources/Images/icon_01_99.png
+      Length: 23515
+    - Name: Assets/HotUpdate/Resources/Materials/New Material.mat
+      Length: 3433
+    - Name: Assets/HotUpdate/Resources/Prefabs/Cube.prefab
+      Length: 2812
+    - Name: Assets/HotUpdate/Resources/Shaders/NewSurfaceShader.shader
+      Length: 1707
+    - Name: Assets/HotUpdate/Resources/Texture/C_STCH01.png
+      Length: 79879
+    - Name: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+      Length: 3873
+    - Name: Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+      Length: 25464
