@@ -1,0 +1,73 @@
+
+[
+  {
+    "Id" : 100001,
+    "ZH" : "\u5F00\u59CB\u6E38\u620F",
+    "EN" : "Start Game"
+  },
+  {
+    "Id" : 100002,
+    "ZH" : "\u7EE7\u7EED",
+    "EN" : "Continue"
+  },
+  {
+    "Id" : 100003,
+    "ZH" : "\u8BBE\u7F6E",
+    "EN" : "Options"
+  },
+  {
+    "Id" : 100004,
+    "ZH" : "\u9000\u51FA\u6E38\u620F",
+    "EN" : "Exit Game"
+  },
+  {
+    "Id" : 100005,
+    "ZH" : "\u7248\u672C\u53F7",
+    "EN" : "Version Number"
+  },
+  {
+    "Id" : 100006,
+    "ZH" : "\u5168\u5C4F",
+    "EN" : "Full Screen"
+  },
+  {
+    "Id" : 100007,
+    "ZH" : "\u5206\u8FA8\u7387",
+    "EN" : "Screen Resolution"
+  },
+  {
+    "Id" : 100008,
+    "ZH" : "\u8BED\u8A00",
+    "EN" : "Language"
+  },
+  {
+    "Id" : 100009,
+    "ZH" : "\u80CC\u666F\u97F3\u4E50",
+    "EN" : "BGM"
+  },
+  {
+    "Id" : 100010,
+    "ZH" : "\u80CC\u666F\u97F3\u4E50\u97F3\u91CF",
+    "EN" : "BGMVolume"
+  },
+  {
+    "Id" : 100011,
+    "ZH" : "\u58F0\u97F3\u7279\u6548",
+    "EN" : "Sound"
+  },
+  {
+    "Id" : 100012,
+    "ZH" : "\u58F0\u97F3\u97F3\u91CF",
+    "EN" : "Sound Volume"
+  },
+  {
+    "Id" : 100013,
+    "ZH" : "\u5F00\u542F",
+    "EN" : "ON"
+  },
+  {
+    "Id" : 100014,
+    "ZH" : "\u5173\u95ED",
+    "EN" : "OFF"
+  }
+]
